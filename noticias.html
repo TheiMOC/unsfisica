@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<!-- Open Graph data -->
+<meta property="og:title" content="iMOC !" />
+<meta property="og:type" content="website" />
+<meta property="og:author" content="Equipo del Proyecto de 3 Unidad de Fisica " />
+<meta property="og:url" content="http://www.example.com/" />
+<meta property="og:image" content="https://www.dropbox.com/s/gmlti00n8j9ja8r/2.png?dl=0" />
+<meta property="og:description" content="Creacion de una aplicacion para facilitar el uso de las leyes Físicas tomo 2 " />
+<meta name="theme-color" content="#3A5795">
+<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+<meta name="author" content="mendoza oviedo maycol nay ">
+<meta name="description" content="Creacion de una aplicacion para facilitar el uso de las leyes Físicas tomo 2 ">
+	<title>iMOC !</title>
+	 <link href="logode.png" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" href="imoc.css">
+</head>
+<body>
+<header id="header">	
+	<h1 class="tinder"><font color="#ffffff"><a href="menu.html" title="iMOC"><i>iMOC</i></a></font></h1>
+<!--seleciones de opciones-->
+<div class="select" >
+<select  name="formal"  onchange="javascript:handleSelect(this)" title="Ordenar segun:">
+<option value="noticias"> Noticias </option>
+<option value="leydecoulomb">Ley de Coulomb</option>
+<option value="leydeohm"> Ley de Ohm</option>
+<option value="cantidadelectrones"> Cantidad de Electrones</option>
+<option value="resistividad"> Resistividad</option>
+<option value="index"> Salir</option>
+</select>
+</div>
+<script type="text/javascript">
+function handleSelect(elm)
+{
+window.location = elm.value+".html";
+}
+</script>
+<!--fin de las seleciones de opciones-->
+	<nav class="main">
+	 <ul>
+	<li class="search">
+	<a class="fa-search" href="#search"></a>
+	<form id="search" method="get" action="#">
+	<input type="text" name="query" placeholder="Search"/></form></li>
+	<a href="" title=""><li class="menu">
+		<img src="uns.jpg" alt="" width="45" height="45">
+	</li></a>
+	</ul>
+    </nav>
+    </header>
+
+    <section>
+    	<div style="font-size: 20px;color:#000;margin-top: 50px;text-align: center;">
+    		
+    <br><br>
+    	</div>
+
+
+    </section>
+
+    <div class="row">
+<main class="feed">
+ <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img  class="photo__avatar" src="mc.png"  />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">MC Graw Hill</span>
+                        <span class="photo__location"><font color="#566573"> Los Angeles </font></span>
+
+                    </div>
+                </header>
+
+                <div class="photo__file-container" id="feedback-bg-info">
+                	<center><a href="index.html" title="" >
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/McZPm7tkguQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a></center>
+                </div> 
+                        
+                <div class="photo__info">
+                	 <span class="photo__time-ago">35 minutos</span><br>
+
+                	 <!---reseña--->
+<div id="caja"><p></p></div>
+<div id="caja2"><p></p></div>
+<br>
+<center>
+<input  class="flecha" type="button" value="Recomendaciones  ⬇" onclick="recargar()"/></center>
+
+
+                       <script type="text/javascript">
+//Función recargar que cambia lo que hay en id="caja" por el contenido nuevo.
+  function recargar(){
+
+   document.getElementById("caja").innerHTML = " <center><hr>⌦   Libro recomendado para estudiantes de medicina y emfermeria .... <hr> <h1></h1> <br>⇗   Autor : Desconocido   <br>⇗ Año impreso: 2012 <br> ⇗ Ciudad : España </center> ";
+   document.getElementById("caja2").innerHTML = " <center>⇗ Editora : MC Graw Hill <hr> </center>";
+
+
+  }
+</script>
+
+<br>
+<!--fin---->
+
+
+
+
+                    <div class="photo__icons">
+                       <span class="photo__icon">
+                         <i class="fa "> 
+                            </i> 
+                        </span>
+                    </a>
+                       
+                         <span class="descargar">
+                            <i class="fa "></i>
+                        </span> 
+                          <span class="icon">
+                             <i class="fa ">
+                  
+                            </i>	
+                        </span> 
+                    </div>  
+                    <span class="photo__likes"></span>                   
+                    <div class="photo__add-comment-container">
+                       <!-- <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>-->
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!---secccionn 2 --->
+
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img  class="photo__avatar" src="alfa.png"  />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">AlfaOmega</span>
+                       <span class="photo__location"><font color="#566573"> Los Angeles </font></span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+               <center><a href="index.html" title="" >
+                
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/syWYSnx6GkE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</a></center>
+                </div>
+                <div class="photo__info">
+                	<!---reseña--->
+<div id="section2"><p></p></div>
+<div id="section21"><p></p></div>
+<br>
+<center>
+<input  class="flecha" type="button" value="Recomendaciones  ⬇" onclick="recargar2()"/></center>
+
+
+                       <script type="text/javascript">
+//Función recargar que cambia lo que hay en id="caja" por el contenido nuevo.
+  function recargar2(){
+
+   document.getElementById("section2").innerHTML = " <center><hr>⌦   Libro recomendado para estudiantes de medicina y emfermeria .... <hr> <h1></h1> <br>⇗   Autor : Desconocido   <br>⇗ Año impreso: 2012 <br> ⇗ Ciudad : España </center> ";
+   document.getElementById("section21").innerHTML = " <center>⇗ Editora : MC Graw Hill <hr> </center>";
+
+
+  }
+</script>
+
+<br>
+<!--fin---->
+                   <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa "> </i>
+                        </span>
+                         <span class="descargar">
+                            <i class="fa "></i>
+                        </span>
+                        <span class="icon">
+                            <i class="fa "></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes"></span>
+                    
+                    <span class="photo__time-ago">11 hours ago</span>
+
+
+                </div>
+            </section>
+
+
+
+            <!---secccionn 2 --->
+
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img  class="photo__avatar" src="alfa.png"  />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">AlfaOmega</span>
+                       <span class="photo__location"><font color="#566573"> Los Angeles </font></span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+               <center><a href="index.html" title="" >
+                
+
+
+<iframe src="https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2F100008493646424%2Fvideos%2F1784831155143322%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</a></center>
+                </div>
+                <div class="photo__info">
+                	<!---reseña--->
+<div id="section2"><p></p></div>
+<div id="section21"><p></p></div>
+<br>
+<center>
+<input  class="flecha" type="button" value="Recomendaciones  ⬇" onclick="recargar2()"/></center>
+
+
+                       <script type="text/javascript">
+//Función recargar que cambia lo que hay en id="caja" por el contenido nuevo.
+  function recargar2(){
+
+   document.getElementById("section2").innerHTML = " <center><hr>⌦   Libro recomendado para estudiantes de medicina y emfermeria .... <hr> <h1></h1> <br>⇗   Autor : Desconocido   <br>⇗ Año impreso: 2012 <br> ⇗ Ciudad : España </center> ";
+   document.getElementById("section21").innerHTML = " <center>⇗ Editora : MC Graw Hill <hr> </center>";
+
+
+  }
+</script>
+
+<br>
+<!--fin---->
+                   <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa "> </i>
+                        </span>
+                         <span class="descargar">
+                            <i class="fa "></i>
+                        </span>
+                        <span class="icon">
+                            <i class="fa "></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes"></span>
+                    
+                    <span class="photo__time-ago">11 hours ago</span>
+
+
+                </div>
+            </section>
+
+
+
+
+
+
+            <!---secccionn 2 --->
+
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img  class="photo__avatar" src="alfa.png"  />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">AlfaOmega</span>
+                       <span class="photo__location"><font color="#566573"> Los Angeles </font></span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+               <center><a href="index.html" title="" >
+                
+
+<iframe src="https://web.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fpermalink.php%3Fstory_fbid%3D817303175040747%26id%3D591445634293170&width=500" width="500" height="570" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</a></center>
+                </div>
+                <div class="photo__info">
+                	<!---reseña--->
+<div id="section2"><p></p></div>
+<div id="section21"><p></p></div>
+<br>
+<center>
+<input  class="flecha" type="button" value="Recomendaciones  ⬇" onclick="recargar2()"/></center>
+
+
+                       <script type="text/javascript">
+//Función recargar que cambia lo que hay en id="caja" por el contenido nuevo.
+  function recargar2(){
+
+   document.getElementById("section2").innerHTML = " <center><hr>⌦   Libro recomendado para estudiantes de medicina y emfermeria .... <hr> <h1></h1> <br>⇗   Autor : Desconocido   <br>⇗ Año impreso: 2012 <br> ⇗ Ciudad : España </center> ";
+   document.getElementById("section21").innerHTML = " <center>⇗ Editora : MC Graw Hill <hr> </center>";
+
+
+  }
+</script>
+
+<br>
+<!--fin---->
+                   <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa "> </i>
+                        </span>
+                         <span class="descargar">
+                            <i class="fa "></i>
+                        </span>
+                        <span class="icon">
+                            <i class="fa "></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes"></span>
+                    
+                    <span class="photo__time-ago">11 hours ago</span>
+
+
+                </div>
+            </section>
+            <!---secccionn 2 --->
+
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img  class="photo__avatar" src="alfa.png"  />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">AlfaOmega</span>
+                       <span class="photo__location"><font color="#566573"> Los Angeles </font></span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+               <center><a href="index.html" title="" >
+                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/xvZLzBYOn3I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a></center>
+                </div>
+                <div class="photo__info">
+                	<!---reseña--->
+<div id="section2"><p></p></div>
+<div id="section21"><p></p></div>
+<br>
+<center>
+<input  class="flecha" type="button" value="Recomendaciones  ⬇" onclick="recargar2()"/></center>
+
+
+                       <script type="text/javascript">
+//Función recargar que cambia lo que hay en id="caja" por el contenido nuevo.
+  function recargar2(){
+
+   document.getElementById("section2").innerHTML = " <center><hr>⌦   Libro recomendado para estudiantes de medicina y emfermeria .... <hr> <h1></h1> <br>⇗   Autor : Desconocido   <br>⇗ Año impreso: 2012 <br> ⇗ Ciudad : España </center> ";
+   document.getElementById("section21").innerHTML = " <center>⇗ Editora : MC Graw Hill <hr> </center>";
+
+
+  }
+</script>
+
+<br>
+<!--fin---->
+                   <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa "> </i>
+                        </span>
+                         <span class="descargar">
+                            <i class="fa "></i>
+                        </span>
+                        <span class="icon">
+                            <i class="fa "></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes"></span>
+                    
+                    <span class="photo__time-ago">11 hours ago</span>
+
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+    </html>
